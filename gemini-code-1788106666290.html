@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MathSea · Matemáticas a Bordo por Júlia Bujosa</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=IBM+Plex+Mono:wght@400;500&family=Karla:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Ajustes específicos para MathSea manteniendo la estética */
+    :root {
+      --navy: #1B2A3A;
+      --ocean: #2B4C6F;
+      --sea-breeze: #EBF2F7;
+      --rust-accent: #C86D51;
+    }
+    body {
+      background: var(--sea-breeze);
+      color: var(--navy);
+    }
+    .hero-title {
+      color: var(--navy);
+    }
+    .hero-subtitle {
+      color: var(--ocean);
+    }
+    .btn-primary {
+      background: var(--navy);
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background: var(--ocean);
+    }
+    .card-symbol {
+      color: var(--rust-accent);
+    }
+    .card {
+      background: #F4F8FA;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" style="background: rgba(235, 242, 247, 0.9);">
+    <div class="nav-inner">
+      <a href="#" class="logo" style="color: var(--navy);">MathSea <span style="font-size: 14px; font-style: normal; color: var(--rust-accent);">by Júlia Bujosa</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#concepto" data-es="El Concepto" data-en="The Concept">El Concepto</a>
+        <a href="#experiencias" data-es="Programas" data-en="Programs">Programas</a>
+        <a href="#colabora" data-es="Armadores / Chárter" data-en="Partners">Armadores</a>
+        <a href="#contacto" data-es="Contacto" data-en="Contact">Contacto</a>
+      </div>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">EN</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-inner">
+      <p class="kicker mono" style="color: var(--rust-accent);" data-es="MATEMÁTICAS & NAVEGACIÓN" data-en="MATHEMATICS & SAILING">MATEMÁTICAS & NAVEGACIÓN</p>
+      <h1 class="hero-title">MathSea</h1>
+      <p class="hero-subtitle" data-es="Clases particulares y de alto rendimiento a bordo. Grupos exclusivos de máximo 4 alumnos." data-en="High-performance math tutoring on board. Exclusive groups of up to 4 students.">
+        Clases particulares y de alto rendimiento a bordo. Grupos exclusivos de máximo 4 alumnos.
+      </p>
+      <p class="hero-text" data-es="Transformamos el aprendizaje de las matemáticas en una experiencia náutica inolvidable. Geometría, trigonometría y cálculo aplicados al mar." data-en="We transform math learning into an unforgettable nautical experience. Geometry, trigonometry, and calculus applied to the sea.">
+        Transformamos el aprendizaje de las matemáticas en una experiencia náutica inolvidable. Geometría, trigonometría y cálculo aplicados al mar.
+      </p>
+      <div class="hero-cta">
+        <a href="#contacto" class="btn btn-primary" data-es="Reservar plaza para mi hijo/a" data-en="Book a spot">Reservar plaza</a>
+        <a href="#colabora" class="btn btn-ghost" data-es="Tengo un barco / Colaborar" data-en="Partner with us">Colaborar con un barco ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="concepto" class="about">
+    <div class="section-inner reveal">
+      <p class="eyebrow mono" style="color: var(--rust-accent);" data-es="// APRENDIZAJE EXPERIENCIAL" data-en="// EXPERIENTIAL LEARNING">// APRENDIZAJE EXPERIENCIAL</p>
+      <h2 data-es="Aprender matemáticas con el mar como aula." data-en="Learning math with the sea as our classroom.">Aprender matemáticas con el mar como aula.</h2>
+      <div class="about-grid">
+        <p data-es="MathSea nace para romper con la monotonía de las clases particulares tradicionales. En grupos reducidos de máximo 4 niños o adolescentes, combinamos el temario oficial (ESO, Bachillerato, IB) con la resolución de problemas reales de navegación." data-en="MathSea breaks away from traditional private tutoring. In small groups of maximum 4 students, we blend official curricula (ESO, High School, IB) with real navigation problem-solving.">
+          MathSea nace para romper con la monotonía de las clases particulares tradicionales. En grupos reducidos de máximo 4 niños o adolescentes, combinamos el temario oficial (ESO, Bachillerato, IB) con la resolución de problemas reales de navegación.
+        </p>
+        <p data-es="Un entorno relajado, estimulante y de alto nivel donde la brisa marina y la brújula sustituyen al estrés del aula, fomentando el trabajo en equipo, la lógica y la confianza académica." data-en="A relaxed, stimulating, high-level environment where the sea breeze and compass replace classroom stress, fostering teamwork, logic, and academic confidence.">
+          Un entorno relajado, estimulante y de alto nivel donde la brisa marina y la brújula sustituyen al estrés del aula, fomentando el trabajo en equipo, la lógica y la confianza académica.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiencias" class="services">
+    <div class="section-inner reveal">
+      <p class="eyebrow mono" style="color: var(--rust-accent);" data-es="// PROGRAMAS EXCLUSIVOS" data-en="// EXCLUSIVE PROGRAMS">// PROGRAMAS EXCLUSIVOS</p>
+      <h2 data-es="Experiencias educativas a bordo" data-en="Educational experiences on board">Experiencias educativas a bordo</h2>
+      
+      <div class="cards">
+        <div class="card">
+          <span class="card-symbol">⚓</span>
+          <h3 data-es="Dockside Academy (En Puerto)" data-en="Dockside Academy (In Port)">Dockside Academy (En Puerto)</h3>
+          <p data-es="Sesiones semanales a bordo con el barco amarrado. Máxima concentración, ambiente único y grupos reducidos de 4 alumnos." data-en="Weekly sessions on board while docked. Maximum focus, unique atmosphere, and small groups of 4 students.">Sesiones semanales a bordo con el barco amarrado. Máxima concentración, ambiente único y grupos reducidos de 4 alumnos.</p>
+        </div>
+        <div class="card">
+          <span class="card-symbol">⛵</span>
+          <h3 data-es="Nautical Math Sessions (Navegando)" data-en="Nautical Math Sessions (Sailing)">Nautical Math Sessions (Navegando)</h3>
+          <p data-es="Salidas de navegación donde calculamos rumbos, abordamos cartas náuticas y aplicamos trigonometría en tiempo real." data-en="Sailing trips where we calculate headings, work with nautical charts, and apply trigonometry in real time.">Salidas de navegación donde calculamos rumbos, abordamos cartas náuticas y aplicamos trigonometría en tiempo real.</p>
+        </div>
+        <div class="card">
+          <span class="card-symbol">🎓</span>
+          <h3 data-es="Especial IB & Selectividad" data-en="IB & Exam Prep Special">Especial IB & Selectividad</h3>
+          <p data-es="Intensivos de preparación de exámenes para estudiantes de Bachillerato Internacional o PAU en un entorno libre de ansiedad." data-en="Exam prep bootcamps for International Baccalaureate or university entrance students in an anxiety-free environment.">Intensivos de preparación de exámenes para estudiantes de Bachillerato Internacional o PAU en un entorno libre de ansiedad.</p>
+        </div>
+        <div class="card">
+          <span class="card-symbol">🌐</span>
+          <h3 data-es="Impartición Bilingüe (ES / EN)" data-en="Bilingual Teaching (ES / EN)">Impartición Bilingüe (ES / EN)</h3>
+          <p data-es="Diseñado especialmente para alumnos de colegios internacionales o americanos que cursan sus estudios en inglés." data-en="Specially tailored for international or American school students studying in English.">Diseñado especialmente para alumnos de colegios internacionales o americanos que cursan sus estudios en inglés.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="colabora" class="timeline-section" style="background: rgba(27, 42, 58, 0.03); padding: 80px 0;">
+    <div class="section-inner reveal">
+      <p class="eyebrow mono" style="color: var(--rust-accent);" data-es="// PARA ARMADORES Y EMPRESAS DE CHÁRTER" data-en="// FOR BOAT OWNERS & CHARTERS">// PARA ARMADORES Y CHÁRTER</p>
+      <h2 data-es="¿Tienes una embarcación? Colabora con MathSea" data-en="Have a boat? Partner with MathSea">¿Tienes una embarcación? Colabora con MathSea</h2>
+      
+      <p style="margin-bottom: 24px; color: var(--navy); font-size: 17px;" data-es="Rentabiliza tu barco durante los días laborables y fuera de la temporada alta de verano. Buscamos alianzas con propietarios y empresas de chárter para ofrecer un uso educativo, respetuoso y de alto valor a sus embarcaciones." data-en="Monetize your boat during weekdays and outside the peak summer season. We seek partnerships with owners and charter companies to provide a respectful, high-value educational use for their vessels.">
+        Rentabiliza tu barco durante los días laborables y fuera de la temporada alta de verano. Buscamos alianzas con propietarios y empresas de chárter para ofrecer un uso educativo, respetuoso y de alto valor a sus embarcaciones.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#contacto" class="btn btn-primary" data-es="Proponer mi barco / Solicitar Dossier" data-en="Propose my boat / Request Dossier">Solicitar Dossier de Colaboración</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <div class="section-inner contact-inner reveal">
+      <p class="eyebrow mono" style="color: var(--rust-accent);" data-es="// CONTACTO & RESERVAS" data-en="// CONTACT & BOOKINGS">// CONTACTO & RESERVAS</p>
+      <h2 data-es="Únete al próximo grupo de MathSea" data-en="Join the next MathSea group">Únete al próximo grupo de MathSea</h2>
+      <p data-es="Plazas muy limitadas (4 alumnos por grupo). Escríbenos para consultar horarios, puertos de salida o propuestas de colaboración." data-en="Very limited spots (4 students per group). Contact us to check schedules, departure ports, or partnership proposals.">Plazas muy limitadas (4 alumnos por grupo). Escríbenos para consultar horarios, puertos de salida o propuestas de colaboración.</p>
+
+      <div class="contact-links">
+        <a href="mailto:juliabujosa@ejemplo.com?subject=Consulta%20MathSea" class="btn btn-primary" data-es="Escribir por Email" data-en="Send an Email">Escribir por Email</a>
+        <a href="https://www.linkedin.com/in/juliabujosamoya" target="_blank" rel="noopener" class="btn btn-ghost">Contactar por LinkedIn ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="section-inner footer-inner">
+      <span>© 2026 MathSea by Júlia Bujosa</span>
+      <span class="mono">Luxury & Experiential Math Tutoring</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

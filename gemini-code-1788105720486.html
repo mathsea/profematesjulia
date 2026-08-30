@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Júlia Bujosa · Profesora de Matemáticas</title>
+  
+  <!-- Tipografías elegidas por Claude -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=IBM+Plex+Mono:wght@400;500&family=Karla:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="logo">Júlia Bujosa</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about" data-es="Sobre mí" data-en="About me">Sobre mí</a>
+        <a href="#services" data-es="Clases" data-en="Tutoring">Clases</a>
+        <a href="#experience" data-es="Trayectoria" data-en="Background">Trayectoria</a>
+        <a href="#contact" data-es="Contacto" data-en="Contact">Contacto</a>
+      </div>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">EN</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-inner">
+      <p class="kicker mono" data-es="PROFE DE MATEMÁTICAS" data-en="MATH TUTOR">PROFE DE MATEMÁTICAS</p>
+      <h1 class="hero-title">Júlia Bujosa</h1>
+      <p class="hero-subtitle" data-es="Haciendo las matemáticas claras, intuitivas y sin estrés." data-en="Making mathematics clear, intuitive, and stress-free.">
+        Haciendo las matemáticas claras, intuitivas y sin estrés.
+      </p>
+      <p class="hero-text" data-es="Acompañamiento personalizado para estudiantes de ESO, Bachillerato e IB. Aprender a razonar, no solo a memorizar fórmulas." data-en="Personalized tutoring for secondary, high school, and IB students. Learn to reason, not just memorize formulas.">
+        Acompañamiento personalizado para estudiantes de ESO, Bachillerato e IB. Aprender a razonar, no solo a memorizar fórmulas.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary" data-es="Reserva una clase" data-en="Book a lesson">Reserva una clase</a>
+        <a href="https://www.linkedin.com/in/juliabujosamoya" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sobre mí -->
+  <section id="about" class="about">
+    <div class="section-inner reveal">
+      <p class="eyebrow mono" data-es="// METODOLOGÍA" data-en="// APPROACH">// METODOLOGÍA</p>
+      <h2 data-es="Entender el porqué detrás de cada número." data-en="Understanding the why behind every number.">Entender el porqué detrás de cada número.</h2>
+      <div class="about-grid">
+        <p data-es="Las matemáticas no son para unos pocos elegidos: son una habilidad que se entrena con la guía adecuada. Mi objetivo es transformar la frustración en confianza y la confusión en claridad." data-en="Math isn't reserved for a chosen few—it's a skill trained with the right guidance. My goal is to turn frustration into confidence and confusion into clarity.">
+          Las matemáticas no son para unos pocos elegidos: son una habilidad que se entrena con la guía adecuada. Mi objetivo es transformar la frustración en confianza y la confusión en claridad.
+        </p>
+        <p data-es="Adapto cada sesión al ritmo y estilo de aprendizaje del alumno, combinando el rigor académico con un ambiente cercano, paciente y dinámico." data-en="I adapt every session to the student's pace and learning style, combining academic rigor with a warm, patient, and engaging environment.">
+          Adapto cada sesión al ritmo y estilo de aprendizaje del alumno, combinando el rigor académico con un ambiente cercano, paciente y dinámico.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios / Clases -->
+  <section id="services" class="services">
+    <div class="section-inner reveal">
+      <p class="eyebrow mono" data-es="// SERVICIOS" data-en="// SERVICES">// SERVICIOS</p>
+      <h2 data-es="¿En qué te puedo ayudar?" data-en="How I can help you">¿En qué te puedo ayudar?</h2>
+      
+      <div class="cards">
+        <div class="card">
+          <span class="card-symbol">∫</span>
+          <h3 data-es="Bachillerato y Selectividad" data-en="High School & University Prep">Bachillerato y Selectividad</h3>
+          <p data-es="Preparación intensiva y continuada para superar el curso y bordar las pruebas de acceso a la universidad (PAU)." data-en="Comprehensive prep to master course content and excel in university entrance exams.">Preparación intensiva y continuada para superar el curso y bordar las pruebas de acceso a la universidad (PAU).</p>
+        </div>
+        <div class="card">
+          <span class="card-symbol">∑</span>
+          <h3 data-es="Bachillerato Internacional (IB)" data-en="International Baccalaureate (IB)">Bachillerato Internacional (IB)</h3>
+          <p data-es="Soporte específico para Mathematics Analysis & Approaches (AA) y Applications & Interpretation (AI)." data-en="Targeted support for Math Analysis & Approaches (AA) and Applications & Interpretation (AI).">Soporte específico para Mathematics Analysis & Approaches (AA) y Applications & Interpretation (AI).</p>
+        </div>
+        <div class="card">
+          <span class="card-symbol">√</span>
+          <h3 data-es="Secundaria (ESO)" data-en="Secondary Education">Secundaria (ESO)</h3>
+          <p data-es="Bases sólidas en álgebra, geometría y resolución de problemas para construir confianza desde la base." data-en="Building strong foundations in algebra, geometry, and problem-solving early on.">Bases sólidas en álgebra, geometría y resolución de problemas para construir confianza desde la base.</p>
+        </div>
+        <div class="card">
+          <span class="card-symbol">π</span>
+          <h3 data-es="Clases Bilingües (ES / EN)" data-en="Bilingual Tutoring (ES / EN)">Clases Bilingües (ES / EN)</h3>
+          <p data-es="Sesiones impartidas en español o inglés, adaptadas a colegios internacionales y estudiantes en el extranjero." data-en="Sessions conducted in English or Spanish, tailored for international school students.">Sesiones impartidas en español o inglés, adaptadas a colegios internacionales y estudiantes en el extranjero.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trayectoria -->
+  <section id="experience" class="timeline-section">
+    <div class="section-inner reveal">
+      <p class="eyebrow mono" data-es="// TRAYECTORIA" data-en="// EXPERIENCE">// TRAYECTORIA</p>
+      <h2 data-es="Perfil y experiencia" data-en="Background & Experience">Perfil y experiencia</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-date mono">2020 — PRESENTE</span>
+          <h3 data-es="Profesora Particular de Matemáticas" data-en="Private Math Tutor">Profesora Particular de Matemáticas</h3>
+          <p data-es="Más de 4 años acompañando a estudiantes a superar asignaturas clave con excelentes resultados y mejora de autoestima académica." data-en="Over 4 years guiding students through core subjects with proven results and renewed academic confidence.">Más de 4 años acompañando a estudiantes a superar asignaturas clave con excelentes resultados y mejora de autoestima académica.</p>
+        </div>
+      </div>
+
+      <div class="languages">
+        <div class="languages-title" data-es="Idiomas de impartición" data-en="Teaching Languages">Idiomas de impartición</div>
+        <div class="languages-list mono">ESPAÑOL (Nativo) · CATALÀ (Natiu) · ENGLISH (Avanzado)</div>
+        <p class="languages-note" data-es="Puedo impartir cualquier clase o material de apoyo íntegramente en cualquiera de los tres idiomas." data-en="Classes and support materials can be fully conducted in any of the three languages.">Puedo impartir cualquier clase o material de apoyo íntegramente en cualquiera de los tres idiomas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contact" class="contact">
+    <div class="section-inner contact-inner reveal">
+      <p class="eyebrow mono" data-es="// CONTACTO" data-en="// CONTACT">// CONTACTO</p>
+      <h2 data-es="¿Hablamos?" data-en="Let's Connect">¿Hablamos?</h2>
+      <p data-es="Escríbeme para consultar disponibilidad, tarifas o agendar una primera sesión de contacto." data-en="Get in touch to check availability, rates, or schedule an initial consultation.">Escríbeme para consultar disponibilidad, tarifas o agendar una primera sesión de contacto.</p>
+
+      <div class="contact-links">
+        <!-- Reemplaza con tu email o enlace de WhatsApp -->
+        <a href="mailto:juliabujosa@ejemplo.com" class="btn btn-primary" data-es="Enviar un email" data-en="Send an email">Enviar un email</a>
+        <a href="https://www.linkedin.com/in/juliabujosamoya" target="_blank" rel="noopener" class="btn btn-ghost">Ver perfil en LinkedIn ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="section-inner footer-inner">
+      <span>© 2026 Júlia Bujosa Moya</span>
+      <span class="mono">Minimal & Aesthetic Math Tutoring</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
